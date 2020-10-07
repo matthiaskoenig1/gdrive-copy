@@ -1,19 +1,12 @@
-<!-- Use a templated HTML printing scriptlet to import common stylesheet. -->
-<?!= HtmlService.createHtmlOutputFromFile('css').getContent(); ?>
 
     <html>
 
     <head>
         <meta charset="UTF-8">
         <!--Webfont loader for Google Apps Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Roboto']
-                }
-            });
-        </script>  
+ 
+        <link rel="stylesheet" href="css.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
     </head>
 
     <body>
@@ -56,9 +49,7 @@
 
         </footer>    </body>
 
-
+    <script src="bundle.js"></script> 
 
     </html>
 
-    <!-- Use a templated HTML printing scriptlet to import JavaScript. -->
-    <?!= HtmlService.createHtmlOutputFromFile('js').getContent(); ?>

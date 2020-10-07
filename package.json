@@ -34,7 +34,8 @@
     "svg2png": "3.1.0",
     "tslib": "^1.9.3",
     "typescript": "^3.2.4",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.11.5"
   },
   "scripts": {
     "pretest": "tsc lib/*.ts --module commonjs || true",
@@ -57,7 +58,8 @@
     "clasp:pull": "clasp pull",
     "clasp:login": "clasp login",
     "clasp:status": "clasp status",
-    "prettier": "prettier --write --single-quote \"{,!(node_modules),!(public),!(dist)/**/}*.{ts,js,css,scss}\""
+    "prettier": "prettier --write --single-quote \"{,!(node_modules),!(public),!(dist)/**/}*.{ts,js,css,scss}\"",
+    "start:dev": "npm run build:dev && webpack-dev-server --config ./config/webpack.config.dev.js"
   },
   "repository": {
     "type": "git",

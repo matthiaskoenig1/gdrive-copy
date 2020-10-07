@@ -17,12 +17,12 @@ let plugins = [
     sourceMap: false,
     comments: false
   }),
-  new ExtractTextPlugin('css.html')
+  new ExtractTextPlugin('css.css')
 ];
 
 module.exports = {
   entry: {
-    index: ['./src/index.js']
+    index: ['./src/index.js', './src/css/main.scss']
   },
   resolve: {
     extensions: ['.js', '.html']
@@ -51,6 +51,12 @@ module.exports = {
         })
       }
     ]
+  },
+  devServer: {
+    contentBase: paths.appBuild, 
+    inline: true,
+    watchContentBase: true,
+    port: 9000
   },
   devtool: 'inline-source-map'
 };
