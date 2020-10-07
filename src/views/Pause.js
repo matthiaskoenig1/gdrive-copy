@@ -92,7 +92,8 @@ export default class Pause extends Component {
           <h2>Are you sure you want to pause everything?</h2>
           <RaisedButton
             label="Confirm: Pause copying"
-            primary={true}
+            backgroundColor="#00A4FD"
+            labelColor="#fff"
             onClick={this.handlePauseBtn}
           />
         </div>

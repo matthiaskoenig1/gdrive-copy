@@ -117,7 +117,8 @@ export default class SelectFolder extends React.Component {
           <RaisedButton
             key="2"
             label="Search your Drive"
-            primary={true}
+            backgroundColor="#00A4FD"
+            labelColor="#fff"
             onClick={this.launchPicker}
           />
         ]}

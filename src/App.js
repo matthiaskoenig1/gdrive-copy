@@ -8,26 +8,8 @@ import Pause from './views/Pause';
 import About from './views/About';
 import FAQ from './views/FAQ';
 import AccountSwitcher from './components/AccountSwitcher';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import {MuiThemeProvider} from 'material-ui/styles/';
 import { Tabs, Tab } from 'material-ui/Tabs';
-import { createMuiTheme } from 'material-ui/styles';
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      light: '#757ce8',
-      main: '#3f50b5',
-      dark: '#002884',
-      contrastText: '#fff',
-    },
-    secondary: {
-      light: '#ff7961',
-      main: '#f44336',
-      dark: '#ba000d',
-      contrastText: '#000',
-    },
-  },
-});
 
 export default class App extends React.Component {
   constructor() {
@@ -63,7 +45,7 @@ export default class App extends React.Component {
             // this is what keeps everything centered
             // if I want the bar to be inside the container too, remove the contentContainerClassName attr and add these
             // className="container"
-            // tabItemContainerStyle={{ backgroundColor: '#f7f7f7' }}
+            tabItemContainerStyle={{ backgroundColor: '#00A4FD' }}
             // style={{ color: '#383838' }} // <-- this should go on each Tab component
             contentContainerClassName="container"
             initialSelectedIndex={1}
