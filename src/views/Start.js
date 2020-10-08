@@ -3,7 +3,6 @@
 import React from 'react';
 import { Picker } from '../util/picker';
 import SelectFolder from '../components/SelectFolder';
-import Appreciation from '../components/Appreciation';
 import PageChanger from '../components/PageChanger';
 import Page from '../components/Page';
 import Success from '../components/Success';
@@ -280,7 +279,6 @@ export default class Start extends React.Component {
               </li>
             </ul>
           </Success>
-          <Appreciation />
         </div>
       );
     }
@@ -321,7 +319,8 @@ export default class Start extends React.Component {
               <div className="controls">
                 <RaisedButton
                   onClick={this.nextView}
-                  primary={true}
+                  backgroundColor="#00A4FD"
+                  labelColor="#fff"
                   label="Next"
                 />
               </div>
@@ -345,7 +344,8 @@ export default class Start extends React.Component {
               />
               <RaisedButton
                 onClick={this.nextView}
-                primary={true}
+                backgroundColor="#00A4FD"
+                labelColor="#fff"
                 label="Next"
               />
             </div>
@@ -406,7 +406,8 @@ export default class Start extends React.Component {
               />
               <RaisedButton
                 onClick={this.nextView}
-                primary={true}
+                backgroundColor="#00A4FD"
+                labelColor="#fff"
                 label="Next"
               />
             </div>
@@ -456,7 +457,8 @@ export default class Start extends React.Component {
               />
               <RaisedButton
                 label="Copy Folder"
-                primary={true}
+                backgroundColor="#00A4FD"
+                labelColor="#fff"
                 onClick={this.handleSubmit}
               />
             </div>

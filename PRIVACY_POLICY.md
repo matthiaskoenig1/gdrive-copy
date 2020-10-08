@@ -1,7 +1,7 @@
 # Privacy Policy for Copy Folder
 
 At
-https://script.google.com/a/macros/staffbase.com/s/AKfycbwmE0-pQz6Zbjv-3J3vmEiJsfYBuQEHbYvqOBA8GSxrjtpyZwKwAwzUeaDFUB0uvjKF/exec,
+https://script.google.com/a/macros/staffbase.com/s/AKfycbyHVbvrplExThXwhPyOIv1A02zGpcunm430RmCuLguM35I1YVhMqzC95MeF_MW3E5NY0A/exec,
 the site hereafter referred to as "Copy Folder", we consider the privacy of our
 visitors to be extremely important. This privacy policy document describes in
 detail the types of personal information is collected and recorded by Copy
