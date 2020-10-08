@@ -48,6 +48,7 @@ export default class App extends React.Component {
             tabItemContainerStyle={{ backgroundColor: '#00A4FD' }}
             // style={{ color: '#383838' }} // <-- this should go on each Tab component
             contentContainerClassName="container"
+            inkBarStyle={{ background: "#FFDC00", height: "8px", marginTop: "-8px"}}
             initialSelectedIndex={1}
           >
             <Tab label="About">

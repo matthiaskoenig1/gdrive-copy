@@ -7,6 +7,12 @@ export default function About() {
     <main className="doc">
       <h2>About</h2>
 
+      <p>This is a fork created from <a href="https://github.com/ericyd/gdrive-copy"
+          target="_blank"
+        >https://github.com/ericyd/gdrive-copy</a> especially
+      to be used by Staffbase employees.
+      </p>
+
       <p>
         This app provides the capability to copy a Google Drive folder. It will
         copy all contents of the folder and preserve the internal structure of
@@ -29,8 +35,8 @@ export default function About() {
         </a>
         . Feel free to reuse or distribute this code in any way you see fit. You
         can find the source code on{' '}
-        <a href="http://www.github.com/ericyd/gdrive-copy" target="_blank">
-          Github
+        <a href="https://github.com/soelu-staffbase/gdrive-copy" target="_blank">
+          Staffbase Github
         </a>
         .
       </p>
@@ -39,10 +45,10 @@ export default function About() {
         If you would like to run your own version of the code, please follow
         deployment instructions at{' '}
         <a
-          href="https://github.com/ericyd/gdrive-copy#deploying-app"
+          href="https://github.com/soelu-staffbase/gdrive-copy#deploying-app"
           target="_blank"
         >
-          https://github.com/ericyd/gdrive-copy#deploying-app
+          https://github.com/soelu-staffbase/gdrive-copy#deploying-app
         </a>
       </p>
 
@@ -69,7 +75,7 @@ export default function About() {
       <p>
         Please see the{' '}
         <a
-          href="https://github.com/ericyd/gdrive-copy/blob/master/PRIVACY_POLICY.md"
+          href="https://github.com/soelu-staffbase/gdrive-copy/blob/master/PRIVACY_POLICY.md"
           target="_blank"
         >
           Privacy Policy

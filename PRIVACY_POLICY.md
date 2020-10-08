@@ -1,11 +1,16 @@
 # Privacy Policy for Copy Folder
 
 At
-https://script.google.com/macros/s/AKfycbxbGNGajrxv-HbX2sVY2OTu7yj9VvxlOMOeQblZFuq7rYm7uyo/exec,
+https://script.google.com/a/macros/staffbase.com/s/AKfycbwmE0-pQz6Zbjv-3J3vmEiJsfYBuQEHbYvqOBA8GSxrjtpyZwKwAwzUeaDFUB0uvjKF/exec,
 the site hereafter referred to as "Copy Folder", we consider the privacy of our
 visitors to be extremely important. This privacy policy document describes in
 detail the types of personal information is collected and recorded by Copy
 Folder and how we use it.
+
+## Staffbase Edition
+This instance is a private app only to be used by Staffbase employees in responsible ways.
+The main use case at the time of set up is to copy onboarding project folder and files in 
+an easy and automated way.
 
 ## How We Collect and Use Information
 
@@ -97,7 +102,7 @@ terms.
 
 ## Update
 
-This Privacy Policy was last updated on: Sunday, December 3rd, 2017.
+This Privacy Policy was last updated on: Oct. 8th, 2020.
 
 Should we update, amend or make any changes to our privacy policy, those changes
 will be posted here.
