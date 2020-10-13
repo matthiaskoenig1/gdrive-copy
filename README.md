@@ -1,7 +1,5 @@
 # Google Drive Copy Folder
 
-This is a Google Drive Web app hosted at the
-[Chrome Web Store](https://chrome.google.com/webstore/detail/copy-folder/kfbicpdhiofpicipfggljdhjokjblnhl).
 This app will recursively copy all contents and sub-folders within a Google
 Drive folder. As long as you have viewing rights on a folder, you can copy it in
 its entirety to your own Google Drive. The folder will be placed in your Google
@@ -9,7 +7,7 @@ Drive, and you can move it from there.
 
 This project is not associated with Google in any way.
 
-To launch app: <https://script.google.com/macros/s/AKfycbxbGNGajrxv-HbX2sVY2OTu7yj9VvxlOMOeQblZFuq7rYm7uyo/exec>
+To launch app: <https://script.google.com/a/macros/staffbase.com/s/AKfycbyHVbvrplExThXwhPyOIv1A02zGpcunm430RmCuLguM35I1YVhMqzC95MeF_MW3E5NY0A/exec>
 
 ## Unable to sign in
 
@@ -33,7 +31,7 @@ of shared information when someone leaves an organization.
 ## Privacy
 
 Please see the
-[Privacy Policy](https://github.com/ericyd/gdrive-copy/blob/master/PRIVACY_POLICY.md).
+[Privacy Policy](https://github.com/soelu-staffbase/gdrive-copy/blob/master/PRIVACY_POLICY.md).
 
 This app does not store any data relating to your account or Google Drive
 contents.
@@ -79,7 +77,7 @@ Note: some build commands use commands which may not be available on standard Wi
 
 ## Bugs? Questions?
 
-Please open an [issue on Github](https://github.com/ericyd/gdrive-copy/issues).
+Please open an [issue on Github](https://github.com/soelu-staffbase/gdrive-copy/issues).
 
 # Project maintenance
 
